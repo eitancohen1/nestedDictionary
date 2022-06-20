@@ -22,7 +22,7 @@ def func1(key,value):
             if myfamily[y][key]==value:
                 print(myfamily[y]["fname"],myfamily[y]["lname"],myfamily[y]["phone"])
         x=input("press Enter for another search")
-        os.system('cls') #change to 'clear' if you using linux os
+        os.system('cls') #change 'cls' to 'clear' if you using linux os
     except:
         print("key or value not correct, please try again")
         
